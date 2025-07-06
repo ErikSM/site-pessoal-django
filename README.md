@@ -54,21 +54,4 @@ O site possui suporte completo para:
 
 ---
 
-# Estrutura do Projeto
 
-portfolio/
-
-├── static/
-│   └── img/                # Imagens do site
-├── templates/
-│   └── base.html           # Template base
-│   └── index.html          # Página principal
-├── locale/
-│   └── pt/
-│   └── en/
-│       └── LC_MESSAGES/
-│           └── django.po / .mo
-├── site_pessoal/
-│   └── views.py            # Lógica da página
-├── manage.py
-└── requirements.txt
