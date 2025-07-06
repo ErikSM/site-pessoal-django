@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+        <h1>{% trans "Bem-vindo ao meu portfólio" %}</h1>
+        <p>{% trans "Este site está em construção. Em breve, mais informações!" %}</p>
+    </div>
+    <img src="{% static 'img/foto_perfil.jpg' %}" alt="Foto de perfil" style="width: 150px; border-radius: 8px;">
+</div>
+{% endblock %}
+
+
