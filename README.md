@@ -57,6 +57,7 @@ O site possui suporte completo para:
 # Estrutura do Projeto
 
 portfolio/
+
 ├── static/
 │   └── img/                # Imagens do site
 ├── templates/
