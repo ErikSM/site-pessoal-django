@@ -1,10 +1,5 @@
 
 
-Este é o site pessoal e portfólio de **Erik Miyajima**, desenvolvido com **Python + Django**, com suporte a **internacionalização (i18n)** para múltiplos idiomas. O projeto reúne informações sobre mim, meus projetos, habilidades, redes sociais e canais de contato.
-
-
----
-
 # Sobre o Projeto
 
 Este portfólio digital foi criado para apresentar meu trabalho como **desenvolvedor autodidata, escritor e criador de projetos digitais com impacto social e educacional**. Com raízes no Japão e atuação voltada ao Brasil e ao mundo, busco unir tecnologia, literatura e transformação social.
