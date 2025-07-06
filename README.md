@@ -19,8 +19,8 @@ Este portfólio digital foi criado para apresentar meu trabalho como **desenvolv
 # Como Executar Localmente
 
 1. **Clone o repositório:**
-    git clone https://github.com/ErikSM/nome-do-repositorio.git
-    cd nome-do-repositorio
+    git clone https://github.com/ErikSM/site-pessoal-django.git
+    cd site-pessoal-django
 
 
 2. Crie um ambiente virtual (recomendado):
