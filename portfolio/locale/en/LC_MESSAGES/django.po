@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "Bem-vindo ao meu portfólio"
+msgstr "Welcome to my portfolio"
+
+msgid "Este site está em construção. Em breve, mais informações!"
+msgstr ""
+"This website is under construction. \n"
+"More information coming soon!"
+
+msgid "Sobre Mim"
+msgstr "About Me"
+
+msgid "Sou um desenvolvedor autodidata, escritor e criador de projetos digitais que combinam tecnologia, criatividade e propósito social. Com raízes no Japão e atuação voltada ao Brasil e ao mundo, tenho construído soluções que integram programação, literatura fantástica, educação e impacto."
+msgstr "I am a self-taught developer, writer and creator of digital projects that combine technology, creativity and social impact. With roots in Japan and focused on Brazil and the world, I have built solutions that integrate programming, fantasy literature, education and impact."
+
+msgid "Projetos"
+msgstr "Projects"
+
+msgid "GitHub – Projetos em Python, Django e soluções criativas"
+msgstr "GitHub – Python and Django Projects"
+
+msgid "LinkedIn – Experiência profissional e formação"
+msgstr "LinkedIn – Experience and Training"
+
+msgid "Montanha das Águias – Plataforma de desenvolvimento pessoal e social"
+msgstr "Eagle Mountain – Personal Development Platform"
+
+msgid "Habilidades"
+msgstr "Habilidades"
+
+msgid "Desenvolvimento web com Python e Django"
+msgstr "Web development with Python and Django"
+
+msgid "Conhecimento de HTML, CSS e estruturação moderna de sites"
+msgstr "Knowledge of HTML, CSS and modern website structuring"
+
+msgid "Criação de conteúdos digitais com foco educativo e literário"
+msgstr "Creation of digital content with an educational and literary focus"
+
+msgid "Escrita criativa, storytelling e construção de mundos de fantasia"
+msgstr "Creative writing, storytelling and fantasy world building"
+
+msgid "Domínio de ferramentas de tradução e internacionalização (i18n)"
+msgstr "Mastery of translation and internationalization tools (i18n)"
+
+msgid "Gestão de projetos com impacto social e educacional"
+msgstr "Project management with social and educational impact"
+
+msgid "Contato"
+msgstr "Contact"
+
+msgid "Email"
+msgstr ""
+
+msgid "Redes Sociais"
+msgstr "Social media"
+
+msgid "Instagram"
+msgstr ""
+
+msgid "Facebook"
+msgstr ""

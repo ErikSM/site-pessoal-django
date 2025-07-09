@@ -1,0 +1,61 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+    <div>
+        <h1>{% trans "Bem-vindo ao meu portfólio" %}</h1>
+        <p>{% trans "Este site está em construção. Em breve, mais informações!" %}</p>
+    </div>
+    <img src="{% static 'img/foto_perfil.jpg' %}" alt="Foto de perfil" style="width: 150px; border-radius: 8px; margin-top: 10px;">
+</div>
+
+<hr>
+
+<section id="sobre">
+    <h2>{% trans "Sobre Mim" %}</h2>
+    {% blocktrans %}
+        Sou um desenvolvedor autodidata, escritor e criador de projetos digitais que combinam tecnologia, criatividade e propósito social. Com raízes no Japão e atuação voltada ao Brasil e ao mundo, tenho construído soluções que integram programação, literatura fantástica, educação e impacto.
+    {% endblocktrans %}
+</section>
+
+<hr>
+
+<section id="projetos">
+    <h2>{% trans "Projetos" %}</h2>
+    <ul>
+        <li><a href="https://github.com/ErikSM" target="_blank">{% trans "GitHub – Projetos em Python, Django e soluções criativas" %}</a></li>
+        <li><a href="https://www.linkedin.com/in/erik-miyajima-355a7223b/" target="_blank">{% trans "LinkedIn – Experiência profissional e formação" %}</a></li>
+        <li><a href="https://montanhadasaguias.com" target="_blank">{% trans "Montanha das Águias – Plataforma de desenvolvimento pessoal e social" %}</a></li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="habilidades">
+    <h2>{% trans "Habilidades" %}</h2>
+    <ul>
+        <li>{% trans "Desenvolvimento web com Python e Django" %}</li>
+        <li>{% trans "Conhecimento de HTML, CSS e estruturação moderna de sites" %}</li>
+        <li>{% trans "Criação de conteúdos digitais com foco educativo e literário" %}</li>
+        <li>{% trans "Escrita criativa, storytelling e construção de mundos de fantasia" %}</li>
+        <li>{% trans "Domínio de ferramentas de tradução e internacionalização (i18n)" %}</li>
+        <li>{% trans "Gestão de projetos com impacto social e educacional" %}</li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="contato">
+    <h2>{% trans "Contato" %}</h2>
+    <p><strong>{% trans "Email" %}:</strong> <a href="mailto:erikmiyajima@gmail.com">erikmiyajima@gmail.com</a></p>
+    <p>
+        <strong>{% trans "Redes Sociais" %}:</strong><br>
+        <a href="https://www.instagram.com/erik_miyajima" target="_blank">📸 {% trans "Instagram" %}</a><br>
+        <a href="https://www.facebook.com/profile.php?id=100009124251611" target="_blank">📘 {% trans "Facebook" %}</a>
+    </p>
+</section>
+
+{% endblock %}
