@@ -1,10 +1,13 @@
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'sua-chave-secreta-aqui'
-DEBUG = True
-ALLOWED_HOSTS = []
+
+SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-12345678abcxyz")
+
+DEBUG = False
+ALLOWED_HOSTS = ['ErikSM.pythonanywhere.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -73,5 +76,9 @@ USE_L10N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / 'static']
+STATICFILES_DIRS = []
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
